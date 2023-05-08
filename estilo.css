@@ -86,6 +86,20 @@ body.sobre #navegacao a#sobre {
     margin: 0 0 20px 195px;
 }
 
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+}
+
 #secundario {
     width: 270px;
     float: left;
@@ -96,8 +110,64 @@ body.sobre #navegacao a#sobre {
 #lateral {
     width: 180px;
     float: left;
-    background: yellow;
     margin: 0 0 20px -750px;
+}
+
+/*Caixa */
+
+.caixa {
+    background: #f3f3f3 url(/imagens/fundo-caixa.png);
+    padding: 5px 0 5px 0;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(/imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 #container-rodape {
