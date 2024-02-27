@@ -8,6 +8,10 @@ body{
     background: #fff url(/imagens/fundo.png) repeat-x;
 }
 
+img {
+    border: 2px solid #dfdfdf;
+}
+
 #container{
     margin: 0 auto;
     width: 780px;
@@ -82,21 +86,13 @@ body.sobre #navegacao a#sobre {
 #primario {
     width: 270px;
     float: left;
-    background: blue;
     margin: 0 0 20px 195px;
 }
 
-#tres-colunas #primario {
-    width: 270px;
-    float: left;
-    background: blue;
-    margin: 0 0 20px 195px;
-}
 
 #duas-colunas #primario {
     width: 555px;
     float: left;
-    background: blue;
     margin: 0 0 20px 195px;
 }
 
@@ -104,7 +100,6 @@ body.sobre #navegacao a#sobre {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 #lateral {
